@@ -1,0 +1,133 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content {
+    width: 70%;
+    height: 400px;
+    min-width: 250px;
+    margin: 15px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.20), 0 10px 10px rgba(0, 0, 0, 0.20);
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.24);
+    transform: translateY(-3px);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 16px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding: 12px 0;
+    color: black;
+}
+
+p {
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+}
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+    color: #222f25;
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+li {
+    padding-left: 4px;
+}
+
+.fas {
+    font-size: 24px;
+}
+
+.checked {
+    color: gold;
+}
+
+button {
+    text-align: center;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    background-color: black;
+    color:#f2f2f2 ;
+    border-radius: 10px;
+}
+.loading {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.loadingImg {
+    width: 85%;
+    height: 400px;
+    margin-left: 100px;
+}
+.error {
+    color: red;
+    width: max-content;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+
+
